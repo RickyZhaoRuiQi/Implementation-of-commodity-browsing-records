@@ -98,7 +98,7 @@
                     }
                 }
 
-                //重复浏览和在cookie但是重新浏览不在最新的位置
+                //重复浏览重复显示bug修复，以及第二次浏览将该商品放在最新的位置
                 if(!list.contains(request.getParameter("id")))
                 {
                     list += request.getParameter("id")+"#";
